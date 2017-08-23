@@ -1,0 +1,29 @@
+<!--pages/music/detail.wxml-->
+<view class="section-top">
+    <view class="flex-item bc_green-top" >
+         <view class="bc_green-top-img-1"><image src="{{img1}}"></image></view>
+           <view class="bc_green-top-img-2"><image src="{{img2}}"></image></view>
+             <view class="bc_green-top-img-3"><image src="{{img3}}"></image></view>
+               <view class="bc_green-top-img-4"><image src="{{img4}}"></image></view>
+    </view>
+    <view class="flex-item bc_red-top" >
+    <view class="bc_red-top-img-1"></view>
+           <view class="bc_red-top-img-2"></view>
+             <view class="bc_red-top-img-3"></view>
+    </view>
+
+</view>
+<view class="section-body">
+
+   <view wx:for="{{musiclist}}" wx:for-item="list"  >   
+             <view  bindtap="bindtapFunc" data-text="{{list}}"  data-id="{{index}}" class="section-body-detail "   style="{{index == id?'background-color:#E48589':'background-color:#FFFEFF'}}" >
+                  <view class="section-body-count" ><text>{{index+1}}.</text></view>
+                  <view class="section-body-musicname">
+                    <view class="section-body-title">{{list.title}}</view>
+                     <view class="section-body-author">{{list.author}}</view>
+                  </view>
+             </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,62 @@
+<!--index.wxml-->
+
+<view class="section-top">
+  <view class="flex-wrp-top" style="flex-direction:row;">
+    <view class="flex-item bc_green-top" >
+    <image  src="{{viewBg_top1}}"></image>
+    </view>
+    <view class="flex-item bc_red-top" >
+    <image  src="{{viewBg_top2}}"></image>
+    </view>
+  </view>
+   <view class="section__title">今日推荐</view>
+</view>
+
+
+<view class="fengexian"></view> 
+<view class="section" wx:for="{{musictypelist}}" wx:for-item="list" >
+  <view class="flex-wrp"  bindtap="toast" data-totype="{{list.type}}"  >
+    <view class="flex-item bc_green"><image  src="{{list.musicBigImg}}"></image></view>
+    <view class="flex-item bc_red"><image  src="{{list.musicImg2}}"></image></view>
+    <view class="flex-item bc_blue"><image  src="{{list.musicImg3}}"></image></view>
+    <view class="section__title">{{list.type}}</view>
+  </view> 
+</view>
+
+<!-- 
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green"><image  src="{{viewBg2_1}}"></image></view>
+    <view class="flex-item bc_red"><image  src="{{viewBg2_2}}"></image></view>
+    <view class="flex-item bc_blue"><image  src="{{viewBg2_3}}"></image></view>
+    <view class="section__title">长沙</view>
+  </view>
+ 
+   
+</view>
+
+
+
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green"><image  src="{{viewBg3_1}}"></image></view>
+    <view class="flex-item bc_red"><image  src="{{viewBg3_2}}"></image></view>
+    <view class="flex-item bc_blue"><image  src="{{viewBg3_3}}"></image></view>
+     <view class="section__title">猜你喜欢</view>
+  </view>
+  
+   
+</view>
+
+
+
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green" bindtap="toast" data-totype="薛之谦"><image  src="{{viewBg4_1}}"></image></view>
+    <view class="flex-item bc_red" bindtap="toast" data-totype="薛之谦"><image  src="{{viewBg4_2}}"></image></view>
+    <view class="flex-item bc_blue" bindtap="toast" data-totype="薛之谦"><image  src="{{viewBg4_3}}"></image></view>
+    <view class="section__title">薛之谦</view>
+  </view> 
+</view> -->
+
+

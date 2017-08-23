@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/music/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E48589",
+    "navigationBarTitleText": "音乐猫",
+    "navigationBarTextStyle":"#E46AA3"
+  }
+}

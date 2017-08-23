@@ -1,0 +1,69 @@
+/* pages/music/detail.wxss */
+.green_hover{
+  background-color: red;
+}
+.section-top{
+width: 96%;
+height: 150px;
+margin-top: 20px;
+}
+.bc_green-top{
+width: 45%;
+height: 100%;
+margin-left: 3%;
+ float: left;
+}
+.bc_green-top-img-1,.bc_green-top-img-2,.bc_green-top-img-3,.bc_green-top-img-4{
+width: 48%;
+height: 49%;
+
+float: left;
+}
+.bc_red-top-img-1,.bc_red-top-img-2,.bc_red-top-img-3{
+width: 95%;
+height: 30%;
+}
+.bc_red-top{
+width: 47%;
+height: 100%;
+margin-right: 3%;
+float: left;
+}
+
+.section-body{
+width: 100%;
+margin-top: 20px;
+}
+
+.section-body-detail{
+margin-left: 3%;
+margin-right: 3%;
+width: 94%;
+height: 70px;
+}
+.section-body-count{
+  width: 18%;
+  height: 70px;
+  float: left;
+  text-align: center;
+}
+
+
+.section-body-musicname{
+width: 80%;
+height: 70px;
+
+float: left;
+}
+.section-body-title{
+  width: 98%;
+  height: 22px;
+  font-size:15px;
+
+}
+.section-body-author{
+  width: 98%;
+  height: 33px;
+  font-size:11px;
+  color:#9F9FAC; 
+}
